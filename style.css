@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Quicksand:wght@400;500;700&family=Raleway:ital,wght@0,400;0,500;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.text-area {
+    border: none;
+    color: blue;
+    margin-top: 90px;
+    font-size: 20px;
+
+}
+
+::placeholder {
+    color: blue
+}
+
+.text-area:focus {
+    outline: none;
+    font-size: 20px;
+}
+
+.result {
+    position: relative;
+    margin-left: 100px;
+    background-color: black;
+}
+
+.result h6 {
+    position: absolute;
+    top: 280px;
+    /* Ajusta el valor según sea necesario para que el h6 sobresalga */
+    left: 200px;
+    font-size: 25px;
+    background-color: transparent;
+    text-align: center;
+
+}
+
+.mensaje-desencriptado {
+    height: 400px;
+    user-select: none;
+    font-size: 20px;
+    resize: none;
+    background: white;
+    background-image: url('img/figura.png');
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    color: #0A3871;
+    margin-left: 98px;
+    position: fixed;
+}
+
+.mensaje-desencriptado:focus {
+    outline: none;
+    font-size: 20px;
+}
+
+.informacion h6 {
+    font-size: 20px;
+    color: #585858;
+}
+
+.botones {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.btn-desencriptador {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 45px;
+    margin-left: 30px;
+    width: 150px;
+}
+
+.btn-desencriptador p {
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.btn-encriptador {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 45px;
+    margin-left: 30px;
+    width: 150px;
+}
+
+.btn-encriptador p {
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.copiar {
+    display: none;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    margin-left: 160px;
+    margin-top: 430px;
+    position: absolute;
+    height: 45px;
+    width: 150px;
+}
+
+.copiar p {
+    background-color: transparent;
+    font-size: 18px;
+}
